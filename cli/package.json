@@ -1,0 +1,13 @@
+
+{
+  "name": "imc-open-gateway-cli",
+  "version": "0.1.0",
+  "description": "Lightweight CLI to interact with the IMC Open Gateway local backend",
+  "bin": {
+    "imc-og": "index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "commander": "^11.0.0"
+  }
+}

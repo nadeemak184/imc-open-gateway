@@ -1,11 +1,13 @@
-
-# config.py
-# Place to wire different providers and secrets.
-from pydantic import BaseSettings
+from pydantic import BaseSettings, HttpUrl
 
 class Settings(BaseSettings):
-    # Add real provider API keys as environment variables or .env file.
-    OPEN_GATEWAY_API_KEY: str | None = None
-    PROVIDER_URL: str = "https://api.mock-opengateway.local"
+    OPEN_GATEWAY_API_KEY: str
+    OPEN_GATEWAY_BASE_URL: HttpUrl
+    # option for sandbox vs production
+    USE_SANDBOX: bool = True
+
+    # timeouts, retry config
+    REQUEST_TIMEOUT: float = 10.0
+    MAX_RETRIES: int = 3
 
 settings = Settings()

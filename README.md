@@ -8,16 +8,16 @@
 
 ## What this repository contains
 
-- `backend/` — FastAPI service that exposes modular endpoints:
-  - `/discover` — automated service discovery (mocked / pluggable)
-  - `/verify-number` — number verification workflow (example)
-  - `/simswap` — SIM-swap detection scaffold
-- `cli/` — Node.js CLI tool to interact with the backend easily
-- `scripts/` — helper scripts for local testing and bootstrapping
-- `Dockerfile`, `docker-compose.yml` — run the backend locally in Docker
-- `.github/workflows/ci.yml` — simple CI that installs dependencies and runs linters/tests
-- `examples/` — example integration snippets for Python & JS
-- `LICENSE` — MIT
+- `backend/` - FastAPI service that exposes modular endpoints:
+  - `/discover` - automated service discovery (mocked / pluggable)
+  - `/verify-number` - number verification workflow (example)
+  - `/simswap` - SIM-swap detection scaffold
+- `cli/` - Node.js CLI tool to interact with the backend easily
+- `scripts/` - helper scripts for local testing and bootstrapping
+- `Dockerfile`, `docker-compose.yml` - run the backend locally in Docker
+- `.github/workflows/ci.yml` - simple CI that installs dependencies and runs linters/tests
+- `examples/` - example integration snippets for Python & JS
+- `LICENSE` - MIT
 
 ## Quickstart (local)
 

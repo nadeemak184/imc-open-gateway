@@ -4,7 +4,7 @@
 **Location:** IMC Open Gateway Hackathon — Yashobhoomi Convention Centre, New Delhi  
 **Project:** Modular API gateway tool to simplify developer interactions with telecom network services (Open Gateway APIs)  
 **Languages:** Python (FastAPI) + JavaScript (Node CLI)  
-**Author role:** Backend development & API integration
+**Role:** Backend development & API integration
 
 ## What this repository contains
 
@@ -18,8 +18,6 @@
 - `.github/workflows/ci.yml` — simple CI that installs dependencies and runs linters/tests
 - `examples/` — example integration snippets for Python & JS
 - `LICENSE` — MIT
-
-This is a complete starter repo you can push to GitHub. Customize providers (actual Open Gateway API credentials) in `backend/app/core/config.py`.
 
 ## Quickstart (local)
 
